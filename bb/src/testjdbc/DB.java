@@ -3,6 +3,8 @@ import java.sql.*;
 public class DB {
 	public static void main(String[] args) {
 		//¼ÓÔØÇý¶¯
+		//dasfddsafsd
+		new Object();
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/test?serverTimezone=UTC"
